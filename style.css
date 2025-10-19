@@ -60,3 +60,9 @@ h2{ font-size:1rem; text-transform:uppercase; letter-spacing:.06em; color:#333; 
   text-decoration: underline;
 }
 
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;        /* adjust size as you like */
+  letter-spacing: 0.05em; /* spreads the letters slightly */
+  font-weight: 400;       /* keeps it light */
+}
