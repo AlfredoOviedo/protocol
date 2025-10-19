@@ -32,3 +32,31 @@ h2{ font-size:1rem; text-transform:uppercase; letter-spacing:.06em; color:#333; 
 @media (max-width:480px){
 .day{ width:56px; height:56px; border-radius:12px }
 }
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9rem;
+  min-width: 120px; /* keeps dates aligned in a neat column */
+}
+
+.post-list a {
+  color: #0366d6; /* GitHub-style blue link */
+  text-decoration: none;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
+
