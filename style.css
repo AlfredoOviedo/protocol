@@ -32,25 +32,3 @@ h2{ font-size:1rem; text-transform:uppercase; letter-spacing:.06em; color:#333; 
 @media (max-width:480px){
 .day{ width:56px; height:56px; border-radius:12px }
 }
-
-.day {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 14px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #0f0f0f;
-  transition: background .2s ease, border-color .2s ease;
-}
-
-.day:hover {
-  background: #fafafa;
-  border-color: #ccc;
-}
-
-.day svg {
-  flex-shrink: 0;
-}
-
