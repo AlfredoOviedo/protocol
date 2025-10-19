@@ -61,8 +61,10 @@ h2{ font-size:1rem; text-transform:uppercase; letter-spacing:.06em; color:#333; 
 }
 
 .title {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 2rem;        /* adjust size as you like */
-  letter-spacing: 0.05em; /* spreads the letters slightly */
-  font-weight: 400;       /* keeps it light */
+  font-family: 'Inconsolata', monospace;
+  font-size: 28px;       /* adjust as you like */
+  font-weight: 400;      /* 400 = normal, 700 = bold */
+  color: #111111;        /* same dark gray as your screenshot */
+  margin-bottom: 15px;   /* spacing below the title */
 }
+
